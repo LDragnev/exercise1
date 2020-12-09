@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.kpmg.exercise1.controller.ExerciseModel" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Button 
+		text="Say Hello" 
+		press='.onShowHello'/>
+	<Input 
+		value="{/recipient/name}"
+		description="Hello {/recipient/name}"
+    	valueLiveUpdate="true"
+    	width="60%"/>
+</mvc:View>
